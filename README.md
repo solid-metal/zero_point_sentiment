@@ -534,7 +534,10 @@ Licensed under the **GNU Affero General Public License v3.0**. See [LICENSE](LIC
 
 ## 👤 Authors
 
-**solid-metal** — [GitHub](https://github.com/solid-metal)
+**Abhinav Singh** — [GitHub](https://github.com/Anthony-3000)
+**Saksham** — [GitHub](https://github.com/SakshamG-014)
+**Anurag Vaibhav** — [GitHub](https://github.com/solid-metal)
+
 
 ---
 
