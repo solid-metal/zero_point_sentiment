@@ -4,6 +4,21 @@ import re
 import nltk
 import random
 
+# -----------------------------
+# THE FIX: NLTK Data Downloader
+# -----------------------------
+@st.cache_resource
+def download_nltk_data():
+    """Downloads necessary NLTK data securely and caches it."""
+    nltk.download('stopwords', quiet=True)
+    nltk.download('wordnet', quiet=True)
+    nltk.download('omw-1.4', quiet=True) # Required by wordnet on some Linux environments
+
+download_nltk_data()
+
+# -----------------------------
+# Imports that depend on the data
+# -----------------------------
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
